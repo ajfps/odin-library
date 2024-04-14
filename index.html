@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Odin Library</h1>
+    </header>
+    <section>
+      <div class="label">
+        <h1 class="heading">Your Library</h1>
+        <button class="addBook">Add Book</button>
+      </div>
+      <dialog class="dialog">
+        <p>Please fill up the necessary details</p>
+        <form method="dialog" id="myForm">
+          <div class="row">
+            <label for="title">Title: </label>
+            <input type="text" id="title" class="title" />
+          </div>
+          <div class="row">
+            <label for="author">Author: </label>
+            <input type="text" id="author" class="author" />
+          </div>
+          <div class="row">
+            <label for="title">Pages: </label>
+            <input type="number" id="pages" class="pages" />
+          </div>
+          <div class="checkboxRow">
+            <label for="haveRead">Have read? </label>
+            <input type="checkbox" id="haveRead" class="haveRead" />
+          </div>
+          <button type="submit" class="submit">Submit</button>
+        </form>
+        <button class="close">×</button>
+      </dialog>
+      
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
